@@ -1,0 +1,50 @@
+{
+    "name": "ejetar/laravel-decimal-locale",
+    "description": "\uD83D\uDD04 Cast your model attributes to the decimal format of another location.",
+    "homepage": "https://ejetar.com/projects/laravel-decimal-locale",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Guilherme Almeida Girardi",
+            "email": "guilhermeagirardi@gmail.com",
+            "homepage": "https://guilhermegirardi.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "php",
+        "cast",
+        "locale",
+        "decimal",
+        "float",
+        "format",
+        "RFC 4646",
+        "CLDR",
+        "laravel"
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^7.6",
+        "illuminate/contracts": "^7.6",
+        "illuminate/http": "^7.6"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ejetar\\DecimalLocale\\": "src/app"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ejetar\\DecimalLocale\\Providers\\AppServiceProvider"
+            ]
+        }
+    }
+}
