@@ -1,7 +1,7 @@
 <?php
 namespace Ejetar\DecimalLocale\Providers;
 
-use Ejetar\DecimalLocale\Http\Middleware\DecimalLocale;
+use Ejetar\DecimalLocale\Http\Middlewares\DecimalLocale;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider {

@@ -1,5 +1,5 @@
 <?php
-namespace Ejetar\DecimalLocale\Http\Middleware;
+namespace Ejetar\DecimalLocale\Http\Middlewares;
 
 use Illuminate\Http\Request;
 
